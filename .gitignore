@@ -1,0 +1,31 @@
+# datasets (DO NOT TRACK)
+data/
+datasets/
+*.mp4
+*.avi
+*.mov
+*.hdf5
+*.h5
+
+# metadata / annotations (from dataset)
+metadata.*
+*.xlsx
+*.xls
+
+# outputs / checkpoints
+outputs/
+checkpoints/
+*.ckpt
+*.pth
+
+# python
+__pycache__/
+*.pyc
+
+# jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
